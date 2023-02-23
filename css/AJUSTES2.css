@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+/* HEADER */
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    /* grid-template-rows: 1fr 10fr repeat(17, 1fr) 10fr 1fr; */
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    }
+    
+.header { grid-area: 1 / 1 / 2 / 7; 
+        height: 55rem;
+        background-image: url(../img/PORTADAINDEX2.JPG);
+        background-size: 100vw;
+        background-position: center top;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-color: #FDF0E5;
+        align-items: right;
+        display: flex;
+        justify-content: space-between;
+        }
+
+.logosilvio {
+        max-height: 84.76px;}
+
+.navbarsilvio{
+        
+        margin-top: 40px;
+        display: flex;
+        font-size: 2rem;
+        padding-right: 20px;
+        list-style: none;
+        
+        }
+a {
+        text-decoration: none;
+        margin: 5px 10px;
+        color: rgb(207, 207, 207);
+        font-weight: bold;
+        font-family: 'Julius Sans One', sans-serif;
+        }
+
+.navbar-collapse {
+    justify-content: right;
+    flex-grow: unset;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+
+
+
+
+
+/*********** MAIN ************/
+
+/* SECTION 1 */
+#grid-container-section1 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    background-color: #FDF0E5;
+    align-items: center;
+    justify-items: center;
+    padding-bottom: 3rem;
+    }
+            
+.div1_main { grid-area: 1 / 1 / 2 / 3; }
+.div2_main { grid-area: 1 / 3 / 2 / 5; }
+.div3_main { grid-area: 1 / 5 / 2 / 7; }
+.div4_main { grid-area: 2 / 1 / 3 / 7; }
+.div5_main { grid-area: 3 / 1 / 8 / 7;
+            padding: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            }
+
+.imagen {
+    width: 800px;
+}
+
+.intro {
+    font-size: 5.5rem;
+    font-family: 'Aboreto', cursive;
+}
+.textos {
+    text-align: center;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-family: 'Noto Sans Symbols 2';
+    }
+.parrafos {
+    padding: 75px;
+}
+
+/* SECTION 2 */
+#section2 {
+    background-color: rgb(134, 130, 130);
+   }
+.article-container {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.articletext {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+    text-align: left;
+}
+#flex_div { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.hr1 {
+    height: 2px;
+    color: #FDF0E5;
+    background-color: #FDF0E5;
+    margin: 3.8rem 0px;
+}
+.textogrande {    
+    font-size: 8.5rem;
+    text-align: right;
+    font-family: 'Aboreto', cursive;
+}
+.parrafo2 {
+    font-size: 3.5rem;
+    align-content: center;
+    padding: 10px;
+    font-family: 'Noto Sans Symbols 2';
+}
+
+/* SECTION 3 */
+
+.hr2 {
+    height: 2px;
+    color: rgb(134, 130, 130);
+    background-color: rgb(134, 130, 130);
+    margin: 0px 10rem;
+}
+.top {
+    margin-top: 8rem;
+}
+
+.article3 {
+    padding: 25px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-evenly;}
+
+figcaption {
+    text-align: center;
+}
+
+.recientes {
+    width: 500px;}
+
+/* SECTION 4 */
+
+.hr3 {
+    height: 2px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    margin-left: 50px;
+}
+
+.parrafogracias{
+    text-align: right;
+    font-size: 3.5rem;
+    padding: 10px;
+}
+#a_escribime {
+    display: block;
+    height: 5.5rem;
+    background-image: url(../img/resaltado2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;    
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .iconos {
+    height: 50px;
+    margin: 50px 20px;
+}
+
+footer div ul {
+    list-style: none;
+    font-size: 1.7rem;
+    display: flex;
+  }
+.ul2 {
+    flex-direction: column;
+    text-align: right;
+}
+.logosilvioabajo {
+    margin: 10px;}
+
+.gray {
+    background-color: rgb(134, 130, 130);
+    background-size: 100vw;
+
+}
+.imgtxt {
+    width: 400px;
+}
+.image_container {
+    display: flex;
+    align-items: end;
+}
+
+.txtport {
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Noto Sans Symbols 2';
+    font-style: italic;
+    text-align: left;
+}
+
+.txtport1{
+    margin-top: 4rem;
+    
+}
+
+#carusia {
+    background-color: rgb(134, 130, 130);
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.carousel-item {
+    max-width: 1400px;
+ 
+}
+
+.fila {
+    margin-left: 40px;
+}
+.navbar-toggler-icon {
+    width: 3em;
+    height: 3em;
+    }
+.navbar-toggler {
+    margin-right: 5rem;
+}
+
+.pipi {
+    display: flex;
+    align-items: center;
+}
