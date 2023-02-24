@@ -1,70 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shorcut icon" href="./img/FAVICON SB 2.jpg"/>
-    <link rel="stylesheet" href="../css/AJUSTES.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100&family=Explora&family=Julius+Sans+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100&family=Explora&family=Julius+Sans+One&family=Noto+Sans+Symbols+2&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
-    <title>Silvio Barba - Fotografo de Historias</title>
-</head>
-
-<body>
-    <header>
-          <img class="logosilvio" src="../img/logo negro CHICO.png" alt="Logo Silvio Barba">
-        
-        <nav >
-            <ul id="lista">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="/pages/propuesta.html">Propuesta</a></li>
-                <li><a href="/pages/bodas.html">Bodas</a></li>
-                <li><a href="/pages/portfolio.html">Portfolio</a></li>
-                <!-- <li><a href="/pages/sobreMi.html">Sobre Mi</a></li> -->
-                <li><a href="/pages/contacto.html">Contacto</a></li>
-            </ul>             
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shorcut icon" href="./img/FAVICON SB 2.jpg"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100&family=Explora&family=Julius+Sans+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100&family=Explora&family=Julius+Sans+One&family=Noto+Sans+Symbols+2&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+        <title>Silvio Barba - Fotografo de Historias</title>
+    <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <!-- estilos -->
+        <link rel="stylesheet" href="../css/AJUSTES2.css">
+    </head>
+    
+    <body>
+        <header>
+                <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #ffffff;" >
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="../index.html"><img class="logosilvio" src="../img/logo negro CHICO.png" alt="Logo Silvio Barba"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/propuesta.html">Propuesta</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/bodas.html">Bodas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/portfolio.html">Portfolio</a>
+                            </li>
+                           <!--  <li class="nav-item">
+                                <a class="nav-link" href="../pages/sobreMi.html">Sobre Mi</a>
+                            </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                            </li>
+                            
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+        </header>
 
     <main>
         <section>
-            <article id=galerias> 
-                
-                <!-- las imágenes van sin alt"" porque son provisorias, cuando vayan las definitivas tendran alt text" -->
-                <!-- Y también las páginas destino están sin vinvular por el mismo motivo. -->
-
-                <div><a href=""><img class="galeriasdebodas"src="../img/Carla y Lucho portada.JPG" alt="">
+            <article class="galerias"> 
+                <div><a href=""><img class="galeriasdebodas "src="../img/Carla y Lucho portada.JPG" alt="">
                     <figcaption>Carla y Lucho</figcaption></a></div>
-                <div><a href=""><img class="galeriasdebodas" src="../img/Sol y Santi portada.JPG" alt="">
+                <div><a href=""><img class="galeriasdebodas " src="../img/Sol y Santi portada.JPG" alt="">
                     <figcaption>Sol y Santi</figcaption></a>    </div>
                 <div><a href=""><img class="galeriasdebodas" src="../img/carcrisfondonegrocolor.JPG" alt="">
                     <figcaption>Carla y Cristian</figcaption></a></div>
                 <div><a href=""><img class="galeriasdebodas" src="../img/juliyviquiespaldasbyn.JPG" alt="">
-                    <figcaption>Sol y Santi</figcaption></a></div>
+                    <figcaption>Juli y Viqui</figcaption></a></div>
                 <div><a href=""><img class="galeriasdebodas" src="../img/vickyjuliabrazomojado.JPG" alt="">
                     <figcaption>Carla y Lucho</figcaption></a></div>
                 <div><a href=""><img class="galeriasdebodas" src="../img/crisyalansuelo.JPG" alt="">
-                    <figcaption>Sol y Santi</figcaption></a></div>
+                    <figcaption>Cris y Alan</figcaption></a></div>
+                <div><a href=""><img class="galeriasdebodas" src="../img/carbailandosola.JPG" alt="">
+                    <figcaption>Carla y Cristian</figcaption></a></div>
+                <div><a href=""><img class="galeriasdebodas" src="../img/Mica y David-83.JPG" alt="">
+                    <figcaption>Mica y David</figcaption></a></div>
             </article>
         </section>
 
-        <section>
+        <section class="centrado">
 
             <hr>
             <!-- en esta sección van dos videos. copio los iframe directamente de un sitio que uso para crear los videos. Entiendo que la información que copio trae
             incrustados ajustes de CSS inline. llegado el momento modificaré esos ajustes y haré los míos dentro de mi archivo AJUSTES.CSS -->         
-            <div>
+            <div class="container-fluid centrado">
                 <style>.ss-embed-container-bXLwtF {position:relative; padding-bottom:667px; height:0; overflow:hidden; max-width:1000px} .ss-embed-container-bXLwtF iframe {position:absolute; top:0;left:0; width:100%!important; height:100%!important;} </style><div class="ss-embed-container-bXLwtF"><iframe src="https://silviobarba.smartslides.com/mora-y-hernan?pt=ed" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                <h3>Mora y Hernán</h3>
+                <p class="article3">Mora y Hernán</p>
             </div>
 
-            <div>
+            <div class="container-fluid centrado">
                 <style>.ss-embed-container-HcGzPl {position:relative; padding-bottom:667px; height:0; overflow:hidden; max-width:1000px} .ss-embed-container-HcGzPl iframe {position:absolute; top:0;left:0; width:100%!important; height:100%!important;} </style><div class="ss-embed-container-HcGzPl"><iframe src="https://silviobarba.smartslides.com/Resumen-2022?pt=ed" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                <h3>Resumen del 2022 </h3>
+                <p class="article3">Resumen del 2022 </p>
             </div>
 
         </section>
@@ -74,7 +97,7 @@
 
     <footer>
         <div>
-            <a href="/index.html"><img class="logosilvio" id="logosilvioabajo" src="../img/logo negro CHICO.png" alt="Logo Silvio Barba"></a>
+            <a href="/index.html"><img class="logosilvio logosilvioabajo" src="../img/logo negro CHICO.png" alt="Logo Silvio Barba"></a>
         </div>
         <div><ul>
                 <li><a href="https://www.instagram.com/silviobarba/"><img class="iconos" src="../img/instagram.png" alt="Ir a Instagram"></a></li>
@@ -88,10 +111,14 @@
                 <li>fotografia@silviobarba.com </li>
             </ul>
         </div>
-
-
-
+    
+    
+    
     </footer>
+    
+        <!-- LINK -->    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
 </body>
 
 </html>

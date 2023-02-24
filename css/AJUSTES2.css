@@ -17,6 +17,15 @@ body{
 .fotoinicio {
         width: 100vw;
 }
+.margen {
+    padding: 40px;}
+ 
+.galeriasdebodas {
+    width: 400px;}
+.galerias {
+    display: flex;
+    flex-wrap: wrap;
+}
 .logosilvio {
         max-height: 84.76px;}
 
@@ -252,10 +261,11 @@ footer div ul {
     margin-right: 5rem;
 }
 
-/* .pipi {
+.section1 {
     display: flex;
+    flex-direction: column;
     align-items: center;
-} */
+}
 
 /* MEDIA QUERIES */
 
