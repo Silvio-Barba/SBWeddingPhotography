@@ -10,43 +10,17 @@ html {
 
 body{
     width: 100vw;
-
 }
 
 /* HEADER */
-#grid-container {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    /* grid-template-rows: 1fr 10fr repeat(17, 1fr) 10fr 1fr; */
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
-    }
-    
-.header { grid-area: 1 / 1 / 2 / 7; 
-        height: 55rem;
-        background-image: url(../img/PORTADAINDEX2.JPG);
-        background-size: 100vw;
-        background-position: center top;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-color: #FDF0E5;
-        align-items: right;
-        display: flex;
-        justify-content: space-between;
-        }
 
+.fotoinicio {
+        width: 100vw;
+}
 .logosilvio {
         max-height: 84.76px;}
 
-.navbarsilvio{
-        
-        margin-top: 40px;
-        display: flex;
-        font-size: 2rem;
-        padding-right: 20px;
-        list-style: none;
-        
-        }
+
 a {
         text-decoration: none;
         margin: 5px 10px;
@@ -278,10 +252,10 @@ footer div ul {
     margin-right: 5rem;
 }
 
-.pipi {
+/* .pipi {
     display: flex;
     align-items: center;
-}
+} */
 
 /* MEDIA QUERIES */
 
@@ -291,6 +265,8 @@ footer div ul {
 
 @media screen and (max-width: 1517px) {
     .header {height: 43rem}
+    .br {display: none;}
+
 }
 
 @media screen and (max-width: 1365px) {
@@ -312,6 +288,10 @@ footer div ul {
     .header {height: 32rem;}
     .logosilvio {
         max-height: 65px}
+    .article-container {
+        padding: 0px;
+        
+    }
     }
 
 
@@ -377,9 +357,79 @@ footer div ul {
     .logosilvioabajo {display: none;}
     footer .iconos {
         height: 30px;
+        margin: 0px;
             }
     footer ul .ul2{
+        font-size: 1rem;
+    }
+    .txtport {
         font-size: 2rem;
     }
     
 }
+
+@media screen and (max-width: 702px) {
+    .imagen {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ul2 {
+        margin-top: 10px;
+        text-align: center;
+        font-family: 'Julius Sans One', sans-serif;}
+    .txtport {
+        font-size: 1rem;}
+    .imgtxt {
+        width: 250px;} 
+    }
+
+@media screen and (max-width: 440px) {
+        .imagen {
+            width: 375px;
+        }
+        .intro {
+            font-size: 3rem;
+            font-family: 'Aboreto', cursive;
+        }
+    }
+
+
+/* HEADER ORIGINAL DESCARTADO POR AHORA */
+
+/* #grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    } */
+
+
+/* header original */
+/*     .header { grid-area: 1 / 1 / 2 / 7; 
+        height: 55rem;
+        background-image: url(../img/PORTADAINDEX2.JPG);
+        background-size: 100vw;
+        background-position: center top;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-color: #FDF0E5;
+        align-items: right;
+        display: flex;
+        justify-content: space-between;
+        } */
+/* .navbarsilvio{
+        
+        margin-top: 40px;
+        display: flex;
+        font-size: 2rem;
+        padding-right: 20px;
+        list-style: none;
+        
+        } */
