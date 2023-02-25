@@ -12,11 +12,13 @@ body{
     width: 100vw;
 }
 
-/* HEADER */
+/* INDEX.HTML */
 
 .fotoinicio {
         width: 100vw;
 }
+
+
 .margen {
     padding: 40px;}
  
@@ -80,6 +82,7 @@ a {
 .imagen {
     width: 800px;
 }
+
 
 .intro {
     font-size: 8rem;
@@ -155,12 +158,36 @@ form label {
     font-style: italic;
     font-family: 'Noto Sans Symbols 2';
     }
-
+.textopropuesta{
+    padding: 50px;
+    text-align: center;
+    font-size: 3rem;
+    font-style: italic;
+    font-family: 'Noto Sans Symbols 2';
+}
 .parrafos {
     padding: 75px;
 }
 
 /* SECTION 2 */
+.propuesta {
+    width: 100vw;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;}
+
+.img600 {
+    width: 600px;
+}
 #section2 {
     background-color: rgb(134, 130, 130);
    }
@@ -259,14 +286,12 @@ figcaption {
 .tresfotos{
     display: flex;
     flex-direction: row;
-    width: 100vw;
-    list-style: none;
-    justify-content: space-around;
-    align-items: center;
-    
+    justify-content: center;
+    gap: 10px;
 }
+
 .imagen3 {
-    width: 600px;
+    width: 550px;
 }
 
 /* FOOTER */
@@ -301,7 +326,8 @@ footer div ul {
 
 }
 .imgtxt {
-    width: 400px;
+    width: 500px;
+    text-align: center;
 }
 .image_container {
     display: flex;
@@ -353,24 +379,35 @@ footer div ul {
     align-items: center;
 }
 
+
+
+
+
+
+
+
+
+
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1765px) {
     .header {height: 50rem}
+    .imagen3 {width: 500px;}
 }
 
 @media screen and (max-width: 1517px) {
     .header {height: 43rem}
     .br {display: none;}
+    .imagen3 {width: 450px;}
 
 }
 
 @media screen and (max-width: 1365px) {
     .header {height: 35rem}
     .imagen {width: 600px;}
-    .b {
-        display: none;
-    }
+    .b {display: none;}
+    .imagen3 {width: 400px;}
 }
 @media screen and (max-width: 1304px) {
    
@@ -381,21 +418,27 @@ footer div ul {
     .textogrande {font-size: 5rem;}
     .intro {font-size: 4rem;}
     .header {height: 38rem;}
+    .imagen3 {width: 380px;}
     }
 
 @media screen and (max-width: 1165px) {
     .header {height: 32rem;}
-    .logosilvio {
-        max-height: 65px}
-    .article-container {
-        padding: 0px;
-        
-    }
+    .logosilvio {max-height: 65px}
+    .article-container {padding: 0px;}
+    .imagen3 {width: 300px;}
     }
 
 
 @media screen and (max-width: 1078px) 
 {
+    .propuesta{
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+   
+    .textopropuesta {
+        padding-top: 0px;
+    }
     .header {height: 30rem;}
     .textogrande {font-size: 4rem;}
     .parrafos{
@@ -450,34 +493,27 @@ footer div ul {
 
 @media screen and (max-width: 946px) {
     .header {height: 25rem}
-    .div5_main {
-        flex-direction: column;
-    }
+    .div5_main {flex-direction: column;}
     .logosilvioabajo {display: none;}
     footer .iconos {
         height: 30px;
-        margin: 0px;
-            }
-    footer ul .ul2{
-        font-size: 1rem;
-    }
-    .txtport {
-        font-size: 2rem;
-    }
-
-    .a {
-        width: 100vw;
-        
-    }
-    
+        margin: 0px;}
+    footer ul .ul2{font-size: 1rem;}
+    .txtport {font-size: 2rem;}
+    .a {width: 100vw;}
+    .tresfotos{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5px;}
+    .imagen3{width: 600px;}
 }
 
 @media screen and (max-width: 702px) {
     .imagen {
-        width: 400px;
-    }
-    .formtitle {
-        font-size: 3rem;    }
+        width: 400px;}
+    .formtitle {font-size: 3rem;}
+    .imagen3{width: 400px;}
 }
 
 
@@ -487,6 +523,11 @@ footer div ul {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .imgtxt {
+        padding: 0px;}
+    .textopropuesta{
+        padding: 0px;
     }
     .ul2 {
         margin-top: 10px;
@@ -500,7 +541,10 @@ footer div ul {
 
 @media screen and (max-width: 440px) {
         .imagen {
-            width: 375px;
+            width: 340px;
+        }
+        .imagen3 {
+            width: 340px;
         }
         .intro {
             font-size: 3rem;
@@ -508,6 +552,18 @@ footer div ul {
         }
 }
 
+@media screen and (max-width: 381px) {
+    .imagen {
+        width: 300px;
+    }
+    .imagen3 {
+        width: 300px;
+    }
+    .intro {
+        font-size: 2.5rem;
+        font-family: 'Aboreto', cursive;
+    }
+}
 
 /* HEADER ORIGINAL DESCARTADO POR AHORA */
 
