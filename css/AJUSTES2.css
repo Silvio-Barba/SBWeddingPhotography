@@ -85,6 +85,56 @@ a {
     font-family: 'Aboreto', cursive;
 }
 
+.formtitle {
+    display: 100vw;
+    text-align: center;    }
+
+.contacto {
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Aboreto', cursive;
+    margin-top: 5rem;
+
+}
+
+form label {
+    font-size: 2rem;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+.a {
+    width: 800px;
+    margin: 20px;
+}
+.datosdecontacto {
+    margin-top: 10rem;
+    font-size: 3rem;
+    font-style: italic;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.sectioncontacto {
+    display: flex;
+    align-content: start;
+}
+.botones {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    padding: 5px;
+    font-size:2rem;
+    font-family: 'Noto Sans Symbols 2';
+
+}
+.boton {
+    width: 200px;
+    align-items: center;
+}
 .textos {
     text-align: center;
     font-size: 3rem;
@@ -187,8 +237,22 @@ figcaption {
     background-position: right center;    
 }
 
+.tresfotos{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.imagen3 {
+    width: 600px;
+}
+
 /* FOOTER */
 footer {
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -282,6 +346,9 @@ footer div ul {
 @media screen and (max-width: 1365px) {
     .header {height: 35rem}
     .imagen {width: 600px;}
+    .b {
+        display: none;
+    }
 }
 @media screen and (max-width: 1304px) {
    
@@ -375,6 +442,10 @@ footer div ul {
     .txtport {
         font-size: 2rem;
     }
+
+    .a {
+        width: 100vw;
+    }
     
 }
 
@@ -382,6 +453,8 @@ footer div ul {
     .imagen {
         width: 400px;
     }
+    .formtitle {
+        font-size: 3rem;    }
 }
 
 @media screen and (max-width: 650px) {
