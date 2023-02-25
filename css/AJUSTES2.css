@@ -25,6 +25,7 @@ body{
 .galerias {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 .logosilvio {
         max-height: 84.76px;}
@@ -87,7 +88,9 @@ a {
 
 .formtitle {
     display: 100vw;
-    text-align: center;    }
+    text-align: center;
+    margin-top: 5rem;
+}
 
 .contacto {
     font-size: 4rem;
@@ -96,8 +99,6 @@ a {
     justify-content: center;
     align-items: center;
     font-family: 'Aboreto', cursive;
-    margin-top: 5rem;
-
 }
 
 form label {
@@ -110,7 +111,17 @@ form label {
 .a {
     width: 800px;
     margin: 20px;
+    
 }
+.borde {
+    border: 1px solid black;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #e0dbd7;
+}
+
+
+
 .datosdecontacto {
     margin-top: 10rem;
     font-size: 3rem;
@@ -129,11 +140,14 @@ form label {
     padding: 5px;
     font-size:2rem;
     font-family: 'Noto Sans Symbols 2';
+    border-radius: 10px;
+    
 
 }
 .boton {
-    width: 200px;
+    width: 170px;
     align-items: center;
+    border-radius: 5px;
 }
 .textos {
     text-align: center;
@@ -223,6 +237,11 @@ figcaption {
     margin-left: 50px;
 }
 
+.hr4 {
+    margin: 50px;
+    
+}
+
 .parrafogracias{
     text-align: right;
     font-size: 3.5rem;
@@ -252,7 +271,6 @@ figcaption {
 
 /* FOOTER */
 footer {
-    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -310,9 +328,13 @@ footer div ul {
     justify-content: center;
 }
 .carousel-item {
-    max-width: 1400px;
- 
+    max-width: 1400px;}
+
+.carousel {
+    padding-bottom: 30px;
 }
+
+
 
 .fila {
     margin-left: 40px;
@@ -445,6 +467,7 @@ footer div ul {
 
     .a {
         width: 100vw;
+        
     }
     
 }
@@ -456,6 +479,8 @@ footer div ul {
     .formtitle {
         font-size: 3rem;    }
 }
+
+
 
 @media screen and (max-width: 650px) {
     footer {
@@ -481,7 +506,7 @@ footer div ul {
             font-size: 3rem;
             font-family: 'Aboreto', cursive;
         }
-    }
+}
 
 
 /* HEADER ORIGINAL DESCARTADO POR AHORA */
