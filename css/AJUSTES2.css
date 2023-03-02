@@ -381,8 +381,6 @@ footer div ul {
 
 
 
-
-
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1765px) {
@@ -508,6 +506,10 @@ footer div ul {
         width: 400px;}
     .formtitle {font-size: 3rem;}
     .imagen3{width: 400px;}
+    .navbar-toggler-icon {
+        width: 2em;
+        height: 2em;
+        }
 }
 
 
